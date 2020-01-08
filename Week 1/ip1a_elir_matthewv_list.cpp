@@ -12,7 +12,6 @@ using namespace std;
 
 int main()
 {
-    string variable;
     cout << "Animals" << endl << endl;
     cout << "Koala" << endl;
     cout << "Kangaroo" << endl;
@@ -23,6 +22,6 @@ int main()
          << "Crocodile" << endl
          << "Platypus" << endl
          << "Echidna" << endl
-         << "Dingo";
+         << "Dingo" << endl;
     return 0;
 }

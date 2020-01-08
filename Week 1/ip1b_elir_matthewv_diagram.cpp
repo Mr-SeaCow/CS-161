@@ -12,8 +12,9 @@ using namespace std;
 
 int main() {
 
-    cout << "_________\n|\t|\n| V | V |\n|   |_  |\n|\t|\n| ----- |\n|_______|";
+    cout << "_________\n|\t\t|\n| V | V |\n|   |_  |\n|\t\t|\n| ----- |\n|_______|";
 
     return 0;
 }
+
 
