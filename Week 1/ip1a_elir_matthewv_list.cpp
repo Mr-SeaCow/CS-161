@@ -1,12 +1,12 @@
-/*
-File:           ip1a_elir_matthewv_list.cpp
-Description:    Display animals
-Author:         Matthew Van Vleet and Eli Rankin
-Date:           1/7/20
-Version:        C++ 14
-*/
+// ***************************************************************************
+// ip1a_elir_matthewv_list.cpp
+//
+// Summary: A program that displays a list of animals
+// Author: Matthew Van Vleet and Eli Rankin
+// Created: 1/7/2020
+// Summary of Modifications:
+// ***************************************************************************
 #include <iostream>
-
 
 using namespace std;
 
