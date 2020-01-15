@@ -1,5 +1,5 @@
 // ***************************************************************************
-// inclass_example.cpp
+// inclass_example1.cpp
 //
 // Summary:
 // Author: Matthew Van Vleet
