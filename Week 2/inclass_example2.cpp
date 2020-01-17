@@ -3,16 +3,42 @@
 //
 // Summary:
 // Author: Matthew Van Vleet
-// Created: 1/14/2020
+// Created: 1/16/2020
+// Version: C++ 14
 // Summary of Modifications:
 // ***************************************************************************
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
-
+ 
 int main()
 {
+     int age;
+     string name;
+     float savings; 
+     char year; //f = freshman ...
+
+     cout << "How old are you? ";
+     cin >> age;
+     
+     cin.ignore(264, '\n');
+     cout << "What is your name? ";
+     getline(cin, name);
+     
+     cout << "How much money have you saved? ";
+     cin >> savings;
+
+     cout << "What year are you in school? (f/s/j/r) ";
+     cin >> year; 
+
+     cout << age << endl
+          << name << endl
+          << "$" << savings << endl
+          << year << endl;
+
+     /* Self Learning Below!
      char inputChar, inputName[256];
 
      // get(), getline(), ignore()
@@ -51,6 +77,6 @@ int main()
      std::cout << "test" << endl;
 
 
-
+     */
      return 0;
 }
