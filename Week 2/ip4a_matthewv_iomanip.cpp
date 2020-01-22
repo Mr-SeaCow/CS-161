@@ -19,7 +19,8 @@ int main()
     float inputSide1,
           inputSide2;
 
-    float outputArea;
+    float outputDimensions,
+          outputArea;
 
 
     cout << "Enter the width of the room: (in feet) ";
@@ -28,10 +29,12 @@ int main()
     cout << "Enter the length of the room: (in feet) ";
     cin >> inputSide2;
 
-    outputArea = (inputSide1/3) * (inputSide2/3); //Converts feet to yards
-
+    outputDimensions = inputSide1 * inputSide2; // square feet
+    outputArea = outputDimensions/9; //Converts feet to yards
     cout << setprecision(3);
     cout << fixed << showpoint
+         <<"Dimensions of your room are: "
+         << outputDimensions << " square feet\n"
          << "The total amount of carpet needed is "
          << outputArea << " square yards.";
     
