@@ -1,9 +1,9 @@
 // ***************************************************************************
-// example.cpp
+// wk3_zodiac.cpp
 //
 // Summary:
 // Author: Matthew Van Vleet
-// Created:
+// Created: 1/23/20
 // Version: C++ 14
 // Summary of Modifications:
 // ***************************************************************************

@@ -13,14 +13,18 @@ using namespace std;
 
 int main() {
 
-    string wordArray[3];
-
-    cin >> wordArray[0];
-    cin >> wordArray[1];
-    cin >> wordArray[2];
+    string word1,
+           word2,
+           word3;
     
+    cin >> word1 >> word2 >> word3;
 
-
+    if ((word1 < word2) && (word1 < word3) && (word2 < word3))
+        cout << word1 << endl << word2 << endl << word3 << endl;
+    else if ((word1 < word2) && (word1 < word3) && (word3 < word2))
+        cout << word1 << endl << word3 << endl << word2 << endl;
+    else if ((word1 < word2) && (word1 < word3) && (word3 < word2))
+        cout << word1 << endl << word3 << endl << word2 << endl;
 
     return 0;
 
